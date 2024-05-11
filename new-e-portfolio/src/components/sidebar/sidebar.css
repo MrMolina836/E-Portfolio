@@ -1,0 +1,36 @@
+
+
+.sidebar__container{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 5rem 4rem 0 0;
+    height: 500px;
+    padding: 2.5rem;
+    border: 1px solid rgb(0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.nav__link{
+    border: 1px solid rgb(0, 0, 0.5);
+    border-radius: 10px;
+    padding: 1rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
