@@ -1,0 +1,90 @@
+.home__container{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF9F6;
+    z-index: -1;
+}
+
+.home__intro{
+    max-width: 540px;
+    text-align: center;
+}
+.img__container{
+    max-width: 100%;
+}
+
+.home__img{
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.home__name{
+    font-size: 30px;
+    margin-bottom: .3rem;
+}
+.home__job-title{
+    font-size: 22px;
+    margin-bottom: 1.6rem;
+}
+.home__social{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.home__social-links{
+    font-size: 20px;
+}
+.btn{
+    border: 1px solid rgb(0, 0, 0.5);
+    border-radius: 30px;
+    padding: .4rem 1.1rem;
+    background-color: hsl(240, 50%, 50%);
+    color: #FAF9F6;
+}
+.scroll__down{
+    position: absolute;
+    bottom: 2.2rem;
+    left: 0;
+    width: 100%;
+}
+.mouse{
+    border: 1.5px solid #000;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+@keyframes moving-mouse {
+    0%{
+        top: 29%;
+    }
+    15%{
+        top: 50%;
+    }
+    100%{
+        top: 29%;
+    }
+}
+
+.wheel{
+    background-color: #000;
+    border-radius: 100%;
+    width: 0.22rem;
+    height: 0.50rem;
+    position: absolute;
+    top: .30rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moving-mouse 3s linear infinite;
+}
