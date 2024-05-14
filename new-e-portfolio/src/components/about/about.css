@@ -4,10 +4,7 @@
     display: flex;
 }
 .about__info{
-    min-height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
+    height: 85vh;
     margin-left: 4rem;
     display: flex;
     align-items: center;
@@ -20,6 +17,9 @@
     padding: 1rem .5rem;
     height: 30rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .about__image-container{
     width: 100%;
@@ -31,9 +31,17 @@
     height: 100%;
     object-fit: cover;
 }
+.about__info-job-title{
+    margin-bottom: 15px;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: .3rem;
+    width: 80%;
+}
 .about__sub-container{
     border: 1px solid black;
     padding: .7rem;
+    margin-bottom: 10px;
 }
 .mini__sub-container{
     display: flex;

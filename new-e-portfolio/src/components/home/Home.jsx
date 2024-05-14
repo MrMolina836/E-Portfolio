@@ -5,7 +5,7 @@ import Me from "../../assets/Profile-Pic.jpg"
 import Scroll from "./Scroll"
 
 
-function Home(){
+const Home = () => {
     return ( 
             <section className="home__container" id="home">
                 <div className="home__intro">
