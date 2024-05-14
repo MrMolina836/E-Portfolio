@@ -40,6 +40,10 @@
 }
 .home__social-links{
     font-size: 20px;
+    transition: .3s;
+}
+.home__social-links:hover{
+    color: hsl(240, 50%, 50%);;
 }
 .btn{
     border: 1px solid rgb(0, 0, 0.5);

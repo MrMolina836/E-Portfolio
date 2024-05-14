@@ -2,9 +2,8 @@ import React from "react"
 
 const Social = () => {
     return(
-        <>
             <div className="home__social">
-                <a href="" className="home__social-links">
+                <a href="#about" className="home__social-links">
                     <i className="fa-brands fa-instagram"></i>
                 </a>
 
@@ -20,7 +19,6 @@ const Social = () => {
                     <i className="fa-brands fa-facebook"></i>
                 </a>
             </div>
-        </>
     )
 }
 
