@@ -45,27 +45,65 @@ const About = () => {
               </div>
             </div>
 
-                <a href="#contact" className="btn">Contact Me</a>
-            
+            <a href="#contact" className="btn">
+              Contact Me
+            </a>
           </div>
         </div>
         <div className="about__details-container">
-            <div className="about__details">
-                
-                <h1>About</h1>
-                    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsam unde recusandae sint debitis a quidem aliquid veniam, aperiam error eius, nihil, cupiditate adipisci perferendis corporis iste magni maxime impedit.</p>
-                
+          <div className="about__details">
+            <h1>About</h1>
 
-                <div className="sub__title">
-                    <h2>What I Do</h2>
-                </div>
+            <p>
+              I am a self-taught front-end developer with a passion for creating
+              dynamic and user-friendly web experiences. Through dedication and
+              continuous learning, I have mastered HTML, CSS, and JavaScript,
+              and I am proficient in frameworks like React. My journey into web
+              development began with a curiosity for how websites work, which
+              quickly evolved into a full-fledged commitment to mastering the
+              craft. I thrive on solving problems and building visually
+              appealing, responsive interfaces. Eager to bring my skills to a
+              collaborative and innovative team, I am excited to contribute to
+              projects that push the boundaries of web technology.
+            </p>
 
-                <div className="about__grid-container">
-
-                </div>
-
+            <div className="sub__title">
+              <h2>What I Do</h2>
             </div>
+
+            <div className="about__display-container">
+
+                <div className="display-box">
+                    <div className="display__icon-title">
+                        <i className="fa-solid fa-code"></i>
+                        <h3>UI/UX Design</h3>
+                    </div>
+                </div>
+
+                <div className="display-box">
+                    <div className="display__icon-title">
+                        <i className="fa-solid fa-mobile-screen-button"></i>
+                        <h3>App Development</h3>
+                    </div>
+                </div>
+
+                <div className="display-box">
+                    <div className="display__icon-title">
+                        <i className="fa-solid fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                </div>
+
+                <div className="display-box">
+                    <div className="display__icon-title">
+                        <i className="fa-solid fa-camera"></i>
+                        <h3>Photography</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div className="about__grid-container"></div>
+          </div>
         </div>
       </section>
     </>
