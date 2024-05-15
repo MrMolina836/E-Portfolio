@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     background-color: #FAF9F6;
-    
 }
 
 .home__intro{
@@ -30,13 +29,13 @@
 }
 .home__job-title{
     font-size: 22px;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.1rem;
 }
 .home__social{
     display: flex;
     justify-content: center;
     column-gap: 1.6rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.3rem;
 }
 .home__social-links{
     font-size: 20px;
