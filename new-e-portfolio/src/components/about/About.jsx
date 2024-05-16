@@ -72,34 +72,61 @@ const About = () => {
             </div>
 
             <div className="about__display-container">
-
-                <div className="display-box">
-                    <div className="display__icon-title">
-                        <i className="fa-solid fa-code"></i>
-                        <h3>UI/UX Design</h3>
-                    </div>
+              <div className="display-box">
+                <div className="display__icon-title">
+                  <i className="fa-solid fa-code"></i>
+                  <h3>UI/UX Design</h3>
                 </div>
+                <p>
+                  As a frontend developer, applying UI/UX design principles is
+                  essential for crafting user-friendly and visually appealing
+                  interfaces. This ensures the products I create are functional
+                  and provide a seamless, enjoyable user experience, leading to
+                  higher user satisfaction and engagement.
+                </p>
+              </div>
 
-                <div className="display-box">
-                    <div className="display__icon-title">
-                        <i className="fa-solid fa-mobile-screen-button"></i>
-                        <h3>App Development</h3>
-                    </div>
+              <div className="display-box">
+                <div className="display__icon-title">
+                  <i className="fa-solid fa-mobile-screen-button"></i>
+                  <h3>App Development</h3>
                 </div>
+                <p>
+                  As a frontend developer, my expertise in app development
+                  allows me to create dynamic, responsive, and user-friendly
+                  applications. I focus on delivering seamless user experiences
+                  through efficient code, intuitive design, and consistent
+                  performance across various devices and platforms.
+                </p>
+              </div>
 
-                <div className="display-box">
-                    <div className="display__icon-title">
-                        <i className="fa-solid fa-laptop-code"></i>
-                        <h3>Web Development</h3>
-                    </div>
+              <div className="display-box">
+                <div className="display__icon-title">
+                  <i className="fa-solid fa-laptop-code"></i>
+                  <h3>Web Development</h3>
                 </div>
+                <p>
+                  As a frontend developer, my skills in web development enable
+                  me to build interactive, responsive, and visually appealing
+                  websites. I prioritize delivering seamless user experiences
+                  through clean code, intuitive design, and cross-browser
+                  compatibility.
+                </p>
+              </div>
 
-                <div className="display-box">
-                    <div className="display__icon-title">
-                        <i className="fa-solid fa-camera"></i>
-                        <h3>Photography</h3>
-                    </div>
+              <div className="display-box">
+                <div className="display__icon-title">
+                  <i className="fa-solid fa-camera"></i>
+                  <h3>Photography</h3>
                 </div>
+                <p>
+                  As a frontend developer, my photography skills enhance my
+                  ability to create visually engaging websites. High-quality
+                  images can greatly improve a site's aesthetics and user
+                  experience, making the overall design more appealing and
+                  effective.
+                </p>
+              </div>
             </div>
 
             <div className="about__grid-container"></div>
