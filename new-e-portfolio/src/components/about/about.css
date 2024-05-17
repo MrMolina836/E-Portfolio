@@ -1,5 +1,5 @@
 .about__container{
-    height: 100vh;
+    height: 119vh;
     width: 100%;
     display: flex;
     column-gap: 2rem;
@@ -44,6 +44,9 @@
     margin-bottom: 15px;
     border-radius: 10px;
 }
+.about__sub-container hr{
+    margin-bottom: 10px;
+}
 .mini__sub-container{
     display: flex;
     align-items: center;
@@ -74,8 +77,8 @@
 .about__details{
     border: 1px solid black;
     width: 100%;
-    height: 100vh;
-    margin-top: 10.8rem;
+    height: 110vh;
+    margin-top: 14rem;
     border-radius: 10px;
     padding: 3rem 3.5rem;
 }
