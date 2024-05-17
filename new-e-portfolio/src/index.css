@@ -17,3 +17,7 @@ a {
     color: black;
     cursor: pointer;
 }
+
+img{
+    border-radius: 10px;
+}
