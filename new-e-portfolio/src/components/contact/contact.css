@@ -1,3 +1,42 @@
 .contact__container{
-    height: 100vh;
+    height: 70vh;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact__layout{
+    display: flex;
+    width: 88%;
+}
+.contact__title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__form-container{
+    width: 50%;
+}
+.contact__form-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+}
+.contact__form-div{
+    position: relative;
+    margin-top: 1rem;
+    height: 2.5rem;
+}
+.contact__form-input{
+    position: absolute;
+    width: 100%;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.875rem;
+    margin-bottom: 1.5rem;
+}
+.contact__form-area{
+    height: 10.25rem;
+    margin-bottom: 1.5rem;
 }
