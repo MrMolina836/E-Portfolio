@@ -9,7 +9,10 @@ const Projects = () => {
         <div className="project__layout">
           <div className="project__title">
             <h1>Projects</h1>
-            <p>Each project is a unique piece of development <i class="fa-solid fa-puzzle-piece"></i></p> 
+            <p>
+              Each project is a unique piece of development{" "}
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </p>
           </div>
           <div className="project__grid-container">
             <div className="project__img-container">
@@ -17,7 +20,9 @@ const Projects = () => {
             </div>
 
             <div className="project__info">
-              <h2>East Side Tabernacle Website <i class="fa-solid fa-church"></i></h2>
+              <h2>
+                East Side Tabernacle Website <i class="fa-solid fa-church"></i>
+              </h2>
               <p>
                 Working on creating a church website as a frontend developer was
                 a fulfilling experience. Using HTML for structure, CSS for
@@ -33,6 +38,7 @@ const Projects = () => {
                 <p>CSS</p>
                 <p>JAVASCRIPT</p>
                 <p>REACT</p>
+                <p>UI/UX</p>
               </div>
               <div className="project__info-btn">
                 <a href="" className="project__links">
@@ -46,15 +52,29 @@ const Projects = () => {
           </div>
           <div className="project__grid-container">
             <div className="project__info">
-              <h2>Rossey's Bakery <i class="fa-solid fa-cake-candles"></i></h2>
+              <h2>
+                Rossey's Bakery <i class="fa-solid fa-cake-candles"></i>
+              </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                nihil modi id hic! Tempore qui tenetur dolores inventore, ipsum
-                similique error ipsa corrupti deserunt a! Inventore minus
-                impedit tempore pariatur?
+                Creating a bakery website as a frontend developer was an
+                enjoyable experience. Using HTML for structure and CSS for
+                styling, I crafted a visually appealing and inviting design. By
+                applying UI/UX principles, I ensured the site was user-friendly
+                and easy to navigate. Through problem-solving, I addressed
+                challenges like optimizing images and ensuring responsive
+                design, resulting in a seamless and delightful user experience.
               </p>
+              <div className="project__info-skills">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>UI/UX</p>
+              </div>
               <div className="project__info-btn">
-                <a href="https://github.com/MrMolina836/Rossys-Bakery" target="blank" className="project__links">
+                <a
+                  href="https://github.com/MrMolina836/Rossys-Bakery"
+                  target="blank"
+                  className="project__links"
+                >
                   <i className="fa-brands fa-github"></i>
                 </a>
                 <a href="">
@@ -73,7 +93,9 @@ const Projects = () => {
             </div>
 
             <div className="project__info">
-              <h2>Code Lumos <i class="fa-solid fa-moon"></i></h2>
+              <h2>
+                Code Lumos <i class="fa-solid fa-moon"></i>
+              </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
                 nihil modi id hic! Tempore qui tenetur dolores inventore, ipsum

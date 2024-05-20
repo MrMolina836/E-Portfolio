@@ -1,8 +1,11 @@
+.active{
+    background-color: red;
+}
 .sidebar__container{
     position: fixed;
     right: 0;
     top: 0;
-    margin-right: 4rem;
+    margin-right: 2rem;
     height: 85vh;
     z-index: 10;
     display: flex;

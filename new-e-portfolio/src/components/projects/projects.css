@@ -5,12 +5,14 @@
     justify-content: center;
 }
 .project__layout{
-    border: 1px solid black;
-    width: 90%;
+    border: .5px solid #aaaaaa;
+    width: 95%;
     height: 94%;
     border-radius: 10px;
     padding: 2rem 3.5rem;
     margin-top: 5rem;
+    background-color: #FAF9F6;
+    box-shadow: 10px 10px 5px #aaaaaa;;
 }
 .project__title{
     margin: 3rem 0 0 3rem;
@@ -22,8 +24,8 @@
     width: 20vw;
     background-color: #000;
     position: absolute;
-    top: 32%;
-    left: 16%;
+    top: 29%;
+    left: 14%;
 }
 .project__title p{
     margin-top: 10px;

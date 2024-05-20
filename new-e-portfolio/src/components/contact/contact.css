@@ -5,16 +5,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(90deg, rgba(250, 249, 246, 1) 32%, rgba(240, 248, 255, 1) 54%);
 }
 .contact__layout{
     display: flex;
     width: 88%;
+    background: rgb(250,249,246);
+    background: linear-gradient(90deg, rgba(250,249,246,1) 32%, rgba(240,248,255,1) 54%);
 }
 .contact__title{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contact__title h1{
+    margin-top: 2rem;
+}
+.contact__title p{
+    margin-top: 2rem;
+    padding: 0 4rem;
+    line-height: 1.5;
+    text-align: center;
 }
 .contact__form-container{
     width: 50%;
@@ -39,4 +51,9 @@
 .contact__form-area{
     height: 10.25rem;
     margin-bottom: 1.5rem;
+}
+.contact__btn{
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    font-size: 18px;
 }
