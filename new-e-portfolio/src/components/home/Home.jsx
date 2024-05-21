@@ -5,7 +5,8 @@ import Me from "../../assets/Profile-Pic.jpg"
 import Scroll from "./Scroll"
 
 
-const Home = () => {
+
+export const Home = () => {
     return ( 
             <section className="home__container" id="home">
                 <div className="home__intro">
@@ -27,5 +28,3 @@ const Home = () => {
             </section>
     )
 };
-
-export default Home

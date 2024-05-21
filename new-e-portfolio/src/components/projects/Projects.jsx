@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import Me from "../../assets/Profile-Pic.jpg";
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <>
       <div className="project__container" id="projects">
@@ -11,7 +11,7 @@ const Projects = () => {
             <h1>Projects</h1>
             <p>
               Each project is a unique piece of development{" "}
-              <i class="fa-solid fa-puzzle-piece"></i>
+              <i className="fa-solid fa-puzzle-piece"></i>
             </p>
           </div>
           <div className="project__grid-container">
@@ -21,7 +21,7 @@ const Projects = () => {
 
             <div className="project__info">
               <h2>
-                East Side Tabernacle Website <i class="fa-solid fa-church"></i>
+                East Side Tabernacle Website <i className="fa-solid fa-church"></i>
               </h2>
               <p>
                 Working on creating a church website as a frontend developer was
@@ -53,7 +53,7 @@ const Projects = () => {
           <div className="project__grid-container">
             <div className="project__info">
               <h2>
-                Rossey's Bakery <i class="fa-solid fa-cake-candles"></i>
+                Rossey's Bakery <i className="fa-solid fa-cake-candles"></i>
               </h2>
               <p>
                 Creating a bakery website as a frontend developer was an
@@ -118,4 +118,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+

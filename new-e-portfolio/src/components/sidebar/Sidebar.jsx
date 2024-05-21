@@ -1,5 +1,6 @@
 import React from "react"
 import "./sidebar.css"
+import { Link } from "react-router-dom"
 
 const Sidebar = () => {
     return(
@@ -11,31 +12,31 @@ const Sidebar = () => {
                     <div className="nav__menu">
                             <ul className="nav__list">
                                 <li className="nav__item">
-                                    <a href="#home" className="nav__link">
+                                    <Link to="/home" className="nav__link">
                                         <i className="icon-home"></i>
                                         <p>Home</p>
-                                    </a>
+                                    </Link>
                                 </li>
                                 
                                 <li className="nav__item">
-                                    <a href="#about" className="nav__link">
+                                    <Link to="/about" className="nav__link">
                                         <i className="icon-user"></i>
                                         <p>About</p>
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className="nav__item">
-                                    <a href="#projects" className="nav__link">
+                                    <Link to="/projects" className="nav__link">
                                         <i className="icon-screen-desktop"></i>
                                         <p>Projects</p>
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className="nav__item">
-                                    <a href="#contact" className="nav__link">
+                                    <Link to="/contact" className="nav__link">
                                         <i className="icon-bubbles"></i>
                                         <p>Contact</p>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                     </div>

@@ -21,6 +21,25 @@
 }
 .contact__title h1{
     margin-top: 2rem;
+    position: relative;
+}
+.contact__title h1::before{
+    content: "";
+    height: 2px;
+    width: 10vw;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+}
+.contact__title h1::after{
+    content: "";
+    height: 2px;
+    width: 10vw;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: 110%;
 }
 .contact__title p{
     margin-top: 2rem;
@@ -47,6 +66,8 @@
     padding: 0.625rem 1.875rem;
     border-radius: 1.875rem;
     margin-bottom: 1.5rem;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border: .5px solid #aaaaaa;
 }
 .contact__form-area{
     height: 10.25rem;

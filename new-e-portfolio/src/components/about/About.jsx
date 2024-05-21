@@ -2,7 +2,7 @@ import "./about.css";
 import Me from "../../assets/Profile-Pic.jpg";
 import Social from "../home/Social";
 
-const About = () => {
+export const About = () => {
   return (
     <>
       <section className="about__container" id="about">
@@ -137,4 +137,4 @@ const About = () => {
   );
 };
 
-export default About;
+
