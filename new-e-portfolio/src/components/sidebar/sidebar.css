@@ -1,5 +1,6 @@
 .active{
-    background-color: red;
+    background-color:  hsl(240, 50%, 50%);
+    color: #FAF9F6;
 }
 .sidebar__container{
     position: fixed;
@@ -15,14 +16,18 @@
 }
 .nav{
     padding: 1rem;
-    border: 1px solid rgb(0, 0, 0.5);
     border-radius: 10px;
+    border: .5px solid #aaaaaa;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .nav__list{
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
+}
+.nav__item:hover{
+    background-color: #f0f8ff;
 }
 
 .nav__link{
