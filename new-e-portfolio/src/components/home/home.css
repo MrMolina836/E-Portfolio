@@ -15,13 +15,24 @@
     max-width: 100%;
 }
 
+@keyframes blob {
+    0%, 100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
 .home__img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     vertical-align: middle;
     margin-bottom: 1.5rem;
-    border-radius: 50%;
     object-fit: cover;
+    animation: blob 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    background-position: center center;
 }
 .home__name{
     font-size: 30px;
