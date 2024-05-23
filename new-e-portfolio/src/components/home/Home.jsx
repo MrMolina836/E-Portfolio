@@ -2,7 +2,7 @@ import React from "react"
 import Social from "./Social"
 import "./home.css"
 import Me from "../../assets/Profile-Pic.jpg"
-import Scroll from "./Scroll"
+import Scroll from "./Skills"
 
 
 

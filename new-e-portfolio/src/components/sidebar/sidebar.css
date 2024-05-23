@@ -27,7 +27,8 @@
     row-gap: 3rem;
 }
 .nav__item:hover{
-    background-color: #f0f8ff;
+    background-color: hsl(240, 50%, 50%);
+    border-radius: 10px;
 }
 
 .nav__link{

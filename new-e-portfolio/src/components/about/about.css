@@ -135,3 +135,49 @@
 .display-box p{
     padding: .5rem;
 }
+
+@media screen and (min-width: 576px) and (max-width: 1022px) {
+    .about__container{
+        display: block;
+        height: 200vh;
+    }
+    .about__info{
+        margin-left: 0;
+    }
+    .about__info-layout{
+        width: 60%;
+        height: 34rem;
+    }
+    .about__details-container{
+        width: 100%;
+    }
+    .about__details{
+        width: 80%;
+        margin-left: 2.3rem;
+        margin-top: 3rem;
+        padding: 3rem 2rem;
+    }
+    .about__image{
+        object-fit: cover;
+        animation: blob 5s ease-in-out infinite;
+        transition: all 1s ease-in-out;
+        background-position: center center;
+    }
+    @keyframes blob {
+        0%, 100%{
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
+        50%{
+            border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        }
+    }
+    .about__image-container h3{
+        font-size: 20.72px;
+    }
+    .about__info-job-title h3{
+        font-size: 15px;
+    }
+    .about__sub-container{
+        width: 90%;
+    }
+}

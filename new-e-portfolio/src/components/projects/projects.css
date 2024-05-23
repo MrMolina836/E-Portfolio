@@ -71,3 +71,34 @@
     gap: 1rem;
     margin-top: 1rem;
 }
+
+@media screen and (min-width: 576px) and (max-width: 1022px) {
+    .project__container{
+        width: 86%;
+    }
+    .project__layout{
+        padding: 2rem;
+    }
+    .project__info{
+        width: 50%;
+        position: relative;
+    }
+    .project__title h1::before{
+        left: 18%;
+    }
+    .project__title{
+        margin: 3rem 0 0 0;
+    }
+    .project__img-container{
+        width: 45%;
+    }
+    .project__grid-container{
+        column-gap: 1rem;
+    }
+    .project__info-skills{
+        margin-left: 5px;
+    }
+    .project__info-btn{
+        font-size: 18px;
+    }
+}
