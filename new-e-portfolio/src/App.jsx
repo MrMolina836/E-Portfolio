@@ -15,7 +15,7 @@ function App(){
         <>
             <Sidebar />
             <main className="main">
-                <Routes>
+                <Routes basename="/repo-name">
                     <Route path="/Home" id="home" element={<Home />}></Route>
                     <Route path="/About" id="about" element={<About />}></Route>
                     <Route path="/Projects" element={<Projects />}></Route>
