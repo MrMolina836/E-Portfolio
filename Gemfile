@@ -1,10 +1,12 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'faraday'
+gem 'github-pages', group: :jekyll_plugins
+
+# Additional gems can be added here, but compatibility issues may arise
 gem 'faraday-retry'
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
 
 # gem "rails"
