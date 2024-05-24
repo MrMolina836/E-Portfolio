@@ -156,6 +156,7 @@
         margin-left: 2.3rem;
         margin-top: 2rem;
         padding: 3rem 2rem;
+        height: auto;
     }
     .about__image{
         object-fit: cover;

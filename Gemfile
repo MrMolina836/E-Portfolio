@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
+git_source(:github) {|E-Portfolio| "https://github.com/#{E-Portfolio}" }
 
 # Additional gems can be added here, but compatibility issues may arise
 gem 'faraday-retry'
