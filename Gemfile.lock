@@ -15,7 +15,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  faraday
   faraday-retry
 
 BUNDLED WITH
