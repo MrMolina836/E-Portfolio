@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-git_source(:github) {|E-Portfolio| "https://github.com/#{E-Portfolio}" }
+git_source(:github) {|repo| "https://github.com/#{repo}" }
 
 # Additional gems can be added here, but compatibility issues may arise
 gem 'faraday-retry'
